@@ -43,12 +43,6 @@ public class SecondGUI{
         frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
 
-        //southPanel = new JPanel();
-        //southPanel.setSize(420,10);
-
-
-        //southPanel.add(button);
-
         panel = new JPanel();
         panel.setBackground(Color.black);
         label = createLabel();

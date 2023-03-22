@@ -3,14 +3,14 @@ public class Subject {
     private int creds;
     private double GP;
     private double kula;
-    private double gamravlebuli;
+    private double multiplied;
 
     public Subject( double kula,int creds) {
         //this.name = name;
         this.creds = creds;
         this.kula = kula;
         this.GP = GPcalc(kula);
-        this.gamravlebuli = multiplication(this.creds, this.GP);
+        this.multiplied = multiplication(this.creds, this.GP);
     }
 
     public int getCreds(){
@@ -21,8 +21,8 @@ public class Subject {
         return kula;
     }
 
-    public double getGamravlebuli() {
-        return gamravlebuli;
+    public double getMultiplied() {
+        return multiplied;
     }
 
     private double multiplication(int creds, double GP){

@@ -13,7 +13,7 @@ public class Calculator {
 
     public double calculator(ArrayList<Subject> arr){
         for (int i = 0; i < subjectList.size(); i++) {
-            dividend += subjectList.get(i).getGamravlebuli();
+            dividend += subjectList.get(i).getMultiplied();
             divisor += subjectList.get(i).getCreds();
         }
 
