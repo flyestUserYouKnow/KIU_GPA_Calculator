@@ -168,11 +168,7 @@ public class SecondGUI{
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                pointsAndCreds.keySet().forEach(System.out::println);
-//                for(Map.Entry map: pointsAndCreds.entrySet()){
-//                    Subject subject = new Subject(Integer.parseInt(map.getValue().toString()), Double.parseDouble(map.getKey().toString()));
-//
-//                }
+
 
                 for (int i = 0; i < txtFields.size(); i += 2) {
                     pointsAndCreds.put(Double.parseDouble(txtFields.get(i).getText().toString()),

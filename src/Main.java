@@ -8,7 +8,6 @@ public class Main {
     public static int numberOfSubjects;
     public static double gpa;
 
-
     public static void main(String[] args) {
 
         Calculator calculator = new Calculator();
